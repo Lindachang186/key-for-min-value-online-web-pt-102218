@@ -3,8 +3,7 @@
 require "pry"
 
 def key_for_min_value(name_hash)
-  name_hash.sort do |a, b|
-    binding.pry
+  name_hash.sort do |key, value|
     a <=> b
   end
 end
